@@ -1,7 +1,7 @@
 {
   "name": "node-typescript-boilerplate",
   "version": "0.0.0",
-  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript. test",
+  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript .",
   "engines": {
     "node": ">= 10.13 <11"
   },
