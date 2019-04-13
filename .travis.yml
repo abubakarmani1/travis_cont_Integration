@@ -13,3 +13,6 @@ cache:
     - "node_modules"
 
 install: npm install
+
+after_success: 
+  - npx semantic-release
