@@ -7,5 +7,11 @@ script:
   - yarn build
   - yarn lint
 
+cache:
+  directories:
+    - "node_modules"
+
+install: npm install
 after_success: 
   - npx semantic-release
+

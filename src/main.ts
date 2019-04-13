@@ -1,5 +1,5 @@
 /**
- * Some predefined delays (in milliseconds).
+ * Some predefined delays (in milliseconds). needs to be change 
  */
 export enum Delays {
   Short = 500,
