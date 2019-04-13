@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-  - "8.9"
   - "node"
 
 script: 
@@ -13,6 +12,6 @@ cache:
     - "node_modules"
 
 install: npm install
-
 after_success: 
   - npx semantic-release
+

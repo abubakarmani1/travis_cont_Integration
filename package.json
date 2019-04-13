@@ -16,7 +16,9 @@
     "tslint-config-prettier": "1.17.0",
     "tslint-microsoft-contrib": "~6.0.0",
     "tsutils": "~3.7.0",
-    "typescript": "^3.2.2"
+    "typedoc": "^0.14.2",
+    "typescript": "^3.2.2",
+    "semantic-release": "^15.13.3"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
@@ -25,11 +27,17 @@
     "lint": "tslint -t stylish --project \"tsconfig.json\"",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "pipeline": "yarn build && yarn lint && yarn test"
+    "doc": "typedoc --out docs ./src",
+    "pipeline": "yarn build && yarn lint && yarn test",
+    "semantic-release": "semantic-release"
   },
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "Apache-2.0",
   "dependencies": {
     "tslib": "~1.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abubakarmani1/travis_cont_Integration.git"
   }
 }
